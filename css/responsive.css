@@ -1,0 +1,424 @@
+@media (max-width: 575px) {
+    .container{
+        max-width: 90%;
+    }
+    .ver_slider  {
+        display: none;
+    }
+    header.d-flex {
+        justify-content: center;
+    }
+    /* Toggle Menu CSS */
+nav .menuicon {
+    display: block;
+}
+.menuicon {
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 40px;
+}
+.menuicon::before {
+    content: "\f0c9";
+    position: absolute;
+    top: 0;
+    left: -28px;
+    width: 40px;
+    height: 40px;
+    line-height: 17px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 20px;
+}
+.menuicon.active::before {
+    content: "\f00d";
+    position: absolute;
+    top: 0;
+    left: -28px;
+    width: 40px;
+    height: 40px;
+    line-height: 17px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 20px;
+}
+.main-menu {
+    display: none;
+}
+.main-menu.active {
+    flex-basis: 100%;
+    order: 1;
+    display: block;
+}
+.main-menu.active ul {
+    flex-flow: column wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+nav .main-menu ul li > ul {
+position: inherit;
+left: 0;
+top: 0;
+opacity: 1;
+visibility: visible;
+display: none;
+}
+nav .main-menu ul li:hover > ul {
+    top: 0;
+    display: block;
+}
+/* Toggle Menu CSS */
+
+#featuredpost .f-post-wrap {
+    align-items: flex-start;
+}
+#featuredpost .f-post-wrap .slider-wrap {
+    width: 100%;
+}
+#featuredpost .f-post-wrap article#singlecard {
+    max-width: 100%;
+}
+#travel_latest_wrap {
+    width: 100%;
+}
+#widget_wrap {
+    width: 100%;
+}
+#latest_wrap article#singlecard {
+    flex-flow: column wrap;
+}
+#latest_wrap article#singlecard .post-content {
+    max-width: 100%;
+    padding-left: 0;
+}
+#travel_wrap article#singlecard {
+    max-width: 100%;
+}
+.instagram .galary img {
+    width: 47%;
+    height: 150px;
+    margin-bottom: 30px;
+}
+#three_cat .col {
+    width: 100%;
+}
+#three_cat article .aside_content {
+    width: 75%;
+    padding-top: 20px;
+}
+#up_footer {
+    padding-bottom: 0;
+}
+#up_footer .col_4, #up_footer .col {
+    margin-bottom: 50px;
+}
+#up_footer .col_4 {
+    width: 62%;
+}
+#up_footer .col {
+    width: 36%;
+}
+#up_footer .tag_cloud ul li a {
+    padding: 10px;
+    font-size: 12px;
+}
+#down_footer {
+    justify-content: center;
+}
+#up_footer .newsletter form .subscribe input[type="email"]{
+    padding: 10px 12px;
+}
+#up_footer .newsletter form .subscribe button {
+    padding: 10px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container{
+        max-width: 540px;
+    }
+    .ver_slider  {
+        display: none;
+    }
+    /* Toggle Menu CSS */
+nav .menuicon {
+    display: block;
+}
+.menuicon {
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 40px;
+}
+.menuicon::before {
+    content: "\f0c9";
+    position: absolute;
+    top: 0;
+    left: -28px;
+    width: 40px;
+    height: 40px;
+    line-height: 17px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 20px;
+}
+.menuicon.active::before {
+    content: "\f00d";
+    position: absolute;
+    top: 0;
+    left: -28px;
+    width: 40px;
+    height: 40px;
+    line-height: 17px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 20px;
+}
+.main-menu {
+    display: none;
+}
+.main-menu.active {
+    flex-basis: 100%;
+    order: 1;
+    display: block;
+}
+.main-menu.active ul {
+    flex-flow: column wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+nav .main-menu ul li > ul {
+position: inherit;
+left: 0;
+top: 0;
+opacity: 1;
+visibility: visible;
+display: none;
+}
+nav .main-menu ul li:hover > ul {
+    top: 0;
+    display: block;
+}
+/* Toggle Menu CSS */
+
+#featuredpost .f-post-wrap {
+    align-items: flex-start;
+}
+#featuredpost .f-post-wrap .slider-wrap {
+    width: 100%;
+}
+#featuredpost .f-post-wrap article#singlecard {
+    max-width: 48%;
+}
+#travel_latest_wrap {
+    width: 100%;
+}
+#widget_wrap {
+    width: 100%;
+}
+#latest_wrap article#singlecard {
+    flex-flow: column wrap;
+}
+#latest_wrap article#singlecard .post-content {
+    max-width: 100%;
+    padding-left: 0;
+}
+#travel_wrap article#singlecard {
+    max-width: 48%;
+}
+.instagram .galary img {
+    height: 150px;
+    margin-bottom: 30px;
+}
+#three_cat .col {
+    width: 48%;
+}
+#three_cat article .aside_content {
+    width: 80%;
+    padding-top: 20px;
+}
+#up_footer {
+    padding-bottom: 0;
+}
+#up_footer .col_4, #up_footer .col {
+    margin-bottom: 50px;
+}
+#up_footer .col_4 {
+    width: 62%;
+}
+#up_footer .col {
+    width: 36%;
+}
+#up_footer .tag_cloud ul li a {
+    padding: 10px;
+    font-size: 12px;
+}
+#down_footer {
+    justify-content: center;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container{
+        max-width: 720px;
+    }
+/* Toggle Menu CSS */
+nav .menuicon {
+    display: block;
+}
+.menuicon {
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 40px;
+}
+.menuicon::before {
+    content: "\f0c9";
+    position: absolute;
+    top: 0;
+    left: -28px;
+    width: 40px;
+    height: 40px;
+    line-height: 17px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 20px;
+}
+.menuicon.active::before {
+    content: "\f00d";
+    position: absolute;
+    top: 0;
+    left: -28px;
+    width: 40px;
+    height: 40px;
+    line-height: 17px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 20px;
+}
+.main-menu {
+    display: none;
+}
+.main-menu.active {
+    flex-basis: 100%;
+    order: 1;
+    display: block;
+}
+.main-menu.active ul {
+    flex-flow: column wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+nav .main-menu ul li > ul {
+position: inherit;
+left: 0;
+top: 0;
+opacity: 1;
+visibility: visible;
+display: none;
+}
+nav .main-menu ul li:hover > ul {
+    top: 0;
+    display: block;
+}
+/* Toggle Menu CSS */
+
+#featuredpost .f-post-wrap {
+    align-items: flex-start;
+}
+#featuredpost .f-post-wrap .slider-wrap {
+    width: 100%;
+}
+#featuredpost .f-post-wrap article#singlecard {
+    max-width: 48%;
+}
+#travel_latest_wrap {
+    width: 100%;
+}
+#widget_wrap {
+    width: 100%;
+}
+#latest_wrap article#singlecard .post-content {
+    max-width: 68%;
+}
+#travel_wrap article#singlecard {
+    max-width: 48%;
+}
+.instagram .galary img {
+    height: 150px;
+    margin-bottom: 30px;
+}
+#three_cat .col {
+    width: 48%;
+}
+#up_footer {
+    padding-bottom: 0;
+}
+#up_footer .col_4, #up_footer .col {
+    width: 48%;
+    margin-bottom: 50px;
+}
+
+}
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    .container{
+        max-width: 960px;
+    }
+    .post-meta-top a, .post-meta-bottom a {
+        font-size: 10px;
+        margin-right: 4px;
+    }
+    article#singlecard .post-content {
+        padding: 30px;
+    }
+    .popular_post aside .aside_content {
+        max-width: 54%;
+    }
+    .popular_post aside h4 {
+        font-size: 13px;
+    }
+    .popular_post aside .post-meta-bottom a {
+        font-size: 9px;
+        margin-right: 2px;
+    }
+    #latest_wrap article#singlecard .post-content {
+        max-width: 65%;
+        padding-top: 0;
+    }
+    .last_comment aside .left img {
+        width: 65px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .last_comment aside .aside_content, #three_cat article .aside_content {
+        width: 63%;
+    }
+    #up_footer .newsletter form .subscribe input[type="email"] {
+        padding: 12px 10px;
+        width: 63%;
+    }
+    #up_footer .tag_cloud ul li a {
+        padding: 8px;
+    }
+    #down_footer {
+        padding: 30px 10px 0 10px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        max-width: 1152px;
+    }
+}
